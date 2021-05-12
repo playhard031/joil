@@ -1,2 +1,0 @@
-function t570_init(recid){if($(window).width()>750){t570_setMapHeight(recid);$(window).load(function(){t570_setMapHeight(recid)});$(window).resize(function(){t570_setMapHeight(recid)})}}
-function t570_setMapHeight(recid){var t570__el=$('#rec'+recid),t570__map=t570__el.find('.t-map');var t570__textwrapper=t570__el.find('.t570__col_text').height();t570__map.css('height',t570__textwrapper).trigger('sizechange')}
